@@ -84,7 +84,7 @@ export default function RecordStoryPage() {
       content: '',
       type: 'recorded',
       date: new Date().toISOString(),
-      theme: child!.theme,
+      theme: 'adventure',
       language: lang,
       audioBlob: base64,
     })

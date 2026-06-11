@@ -20,7 +20,7 @@ interface AppContextValue {
   toggleFavorite: (id: string) => void
   getStory: (id: string) => Story | undefined
   updateSettings: (updates: Partial<AppSettings>) => void
-  t: typeof translations.en
+  t: typeof translations.en | typeof translations.ar
   lang: Language
   dir: 'ltr' | 'rtl'
   setLanguage: (lang: Language) => void
